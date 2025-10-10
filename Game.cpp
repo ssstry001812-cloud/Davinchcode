@@ -345,13 +345,13 @@ void Game::showResult() {
     cout << "컴퓨터 남은 타일: " << computerHidden << "개\n\n";
 
     if (playerHidden > computerHidden) {
-        cout << "🏆 플레이어 승리!\n";
+        cout << " 플레이어 승리!\n";
     }
     else if (computerHidden > playerHidden) {
-        cout << "💻 컴퓨터 승리!\n";
+        cout << " 컴퓨터 승리!\n";
     }
     else {
-        cout << "🤝 무승부!\n";
+        cout << " 무승부!\n";
     }
 }
 
@@ -390,4 +390,5 @@ void Game::play() {
 
     showResult();
 }
+
 
